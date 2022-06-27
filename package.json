@@ -2,10 +2,12 @@
   "name": "react-hooks",
   "version": "1.0.0",
   "description": "The useful React hooks",
-  "main": "index.js",
+  "main": "./build/index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack --watch"
+    "dev": "webpack --watch",
+    "publish": "npm publish",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "React Hooks"
