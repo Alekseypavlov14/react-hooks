@@ -1,5 +1,5 @@
 {
-  "name": "hooks-collection",
+  "name": "react-new-hooks",
   "version": "1.0.0",
   "description": "The useful React hooks",
   "main": "./build/index.js",
